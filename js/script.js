@@ -1,4 +1,4 @@
-console.log("tajne przez poufne");
+console.log("tajne przez poufne. Ten kod jest już w GIT");
 
 function deleteChild() { 
     var e = document.querySelector("body"); 
