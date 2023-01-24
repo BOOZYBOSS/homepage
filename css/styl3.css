@@ -1,0 +1,99 @@
+.tlo {
+    background-color: rgb(0, 0, 0);
+    color: #d94646;
+    display: block;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.naglowek1 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.naglowek2 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.naglowek3 {
+    color: #ffffff99;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.naglowek4 {
+    color: #ffffff72;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.naglowek5 {
+    color: #ffffff21;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.teskt1 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.przycisk {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 6px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+
+.teskt2 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.tekst3 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center
+}
+
+.tekst4 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.kolor {
+    color: darkgrey;
+}

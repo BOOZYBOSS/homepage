@@ -1,0 +1,78 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid rgb(66, 20, 54);
+    padding: 20px;
+    text-align: center;
+}
+
+.caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.tableHeader {
+    background-color: rgb(122, 23, 50);
+    color: white;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+
+.tableRow:hover {
+    background-color: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.listItem {
+    margin: 10px 0;
+    background: #eee;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.orderedList {
+    list-style-type: decimal-leading-zero;
+}
+
+.unorderedList {
+    list-style: "😇" inside;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: aquamarine;
+}
+
+.link:focus {
+    outline: 2px solid currentColor;
+}
+
+.link:hover {
+    color: royalblue;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: brown;
+}

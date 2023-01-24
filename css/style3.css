@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.exchange__form {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.exchange__fieldset {
+    border: black 3px solid;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    background-color: white;
+}
+
+.exchange__legend {
+    background-color: rgb(45, 150, 50);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 3px;
+    border: black 3px solid;
+}
+
+.exchange__text {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+.exchange__option {
+    width: 100%;
+    max-width: 620px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(218, 218, 218, 0.9);
+}
+
+.exchange__field {
+    width: 100%;
+    max-width: 620px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(218, 218, 218, 0.9);
+}
+
+.exchange__field:required {
+    border-color: black;
+}
+
+.exchange__field:read-only {
+    background-color: rgb(210, 210, 210);
+}
+
+.exchange__button {
+    font-family: "Roboto" sans-serif;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(45, 150, 50);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.exchange__button:hover {
+    background-color: rgb(79, 172, 84);
+}
+
+.exchange__button:active {
+    background-color:  rgb(139, 204, 143);
+    transform: scale(0.95);
+}
+
+.exchange__cash {
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.exchange__text--numbers {
+    text-align: end;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(45, 150, 50);
+    width: 100%;
+    max-width: 620px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(218, 218, 218, 0.9);
+
+}

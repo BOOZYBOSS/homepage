@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: #333;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+

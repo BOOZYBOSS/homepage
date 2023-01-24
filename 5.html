@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document BEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body js-body">
+    <div class="container">
+        <nav>
+            <ul class="navigation">
+                <li class="navigation__item"><a class="navigation__link" href="#home">Home
+                    </a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#co">O co chodzi</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#kiedy">Kiedy i gdzie</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#lista-gosci">Lista Gości</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#usun">Zniszcz</a></li>
+            </ul>
+        </nav>
+        <main>
+            <header class="section section--centered">
+                <img class="section__image" width="100" height="100"
+                    src="https://scontent.fktw5-1.fna.fbcdn.net/v/t39.30808-6/315076045_10160960660505961_7023829005431475729_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=973b4a&_nc_ohc=ZvjaYe0Cj6IAX-ctUH3&_nc_ht=scontent.fktw5-1.fna&oh=00_AfCw2-W2NF8jojtmYpLMD6rIz2vWynEBZZ7cuTQ0-QCCew&oe=63CD4D1F"
+                    alt="Klaudia Łapińska">
+                <h1 class="section__header">Solenizant Scooby</h1>
+
+            </header>
+            <section id="home" class="section">
+            </section>
+            <section id="co" class="section">
+                <h2 class="section__subHeader">O co chodzi</h2>
+                <p class="section__paragraph">
+                    <b>Scooby</b> ma niedługo urodziny,🥳 więc wraz z <b>Kudłatym</b> szykujemy przyjecie niespodziankę
+                    dla
+                    naszego serecznego przyjaciela. Planujemy go ostro wystraszyć i musisz nam w tym pomóc!👻
+                    Obowiązkowa jest <b>potworana</b> kreacja oraz przyniesienie jakiejś przekąski. Tylko nie bierz
+                    <i>scoobychrupek</i>,🙏🏼 Kudłaty przyszykuje z nich tort 😋
+                </p>
+            </section>
+            <section id="kiedy" class="section">
+                <h2 class="section__subHeader">Kiedy i gdzie</h2>
+                <p class="section__paragraph">
+                    W najbliższą pełnie na zamku Drakuli. Przynajmniej 15min przed północą, żebyś zdążył się schować 🙈
+                </p>
+            </section>
+            <section id="lista-gosci" class="section">
+                <h2 class="section__subHeader">Lista Gości</h2>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption"></caption>
+                        <tbody>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="col">Pseudonim</th>
+                                <th class="table__cell table__cell--header" scope="col">Imię</th>
+                                <th class="table__cell table__cell--header" scope="col">Strój</th>
+                                <th class="table__cell table__cell--header" scope="col">Nr.kom</th>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header">Czarny Rycerz</th>
+                                <th class="table__cell" scope="col">Hyde White</th>
+                                <th class="table__cell" scope="col">Zbroja</th>
+                                <th class="table__cell" scope="col">997</th>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header">Dralula</th>
+                                <th class="table__cell" scope="col">Big Bob Oakley</th>
+                                <th class="table__cell" scope="col">Kły</th>
+                                <th class="table__cell" scope="col">212 456 164</th>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell table__cell--header" colspan="2">Kudłaty</td>
+                                <th class="table__cell" scope="col">Na hipisa</th>
+                                <th class="table__cell" scope="col">brak</th>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header">Duch kapitana Cutlera</th>
+                                <th class="table__cell" scope="col">George Cutler</th>
+                                <th class="table__cell" scope="col">Strój nurka</th>
+                                <th class="table__cell" scope="col">woli listy w butelkach</th>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell table__cell--header" colspan="2">Fred</td>
+                                <th class="table__cell" scope="col">Na Freda</th>
+                                <th class="table__cell" scope="col">789 103 400</th>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header">Duch Klauna</th>
+                                <th class="table__cell" scope="col">Harry Hipnotyzer</th>
+                                <th class="table__cell" scope="col">Strój z cyrku</th>
+                                <th class="table__cell" scope="col">brak(ma zabawkowy)</th>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="usun" class="section">
+                <h2 class="section__subHeader">Kliknij 👇🏻</h2>
+                <p class="section__paragraph">
+                    <button id="btn" value="Remove Page" class="section__button js-deleteInvitation">Zniszcz</button>
+                </p>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        Wszelkie prawa nie istnieją
+    </footer>
+</body>
+
+</html>
