@@ -1,9 +1,3 @@
-# BoozyBoss - moja strona
+# Szymon Brzozowski - Page
 
-## **DEMO**
-
-[Click](https://boozyboss.github.io/homepage/)
-
-## Opis
-
-Jedna z pierwszych stron, którą stworzyłem
+## [**DEMO**](https://boozyboss.github.io/homepage/)
